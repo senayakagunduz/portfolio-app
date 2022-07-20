@@ -3,9 +3,10 @@ import "./about.css";
 import {Container,Row,Col} from "reactstrap";
 import aboutImg from "../../assets/img/me.png"
 import Education from './Education';
+import Skills from './Skills';
 
 const About = () => {
-const [aboutFilter,setAboutFilter]=useState("ABOUT");
+const [aboutFilter,setAboutFilter]=useState('ABOUT');
   return <section id="about">
     <Container>
         <Row>
@@ -14,15 +15,14 @@ const [aboutFilter,setAboutFilter]=useState("ABOUT");
             </Col>
             <Col lg="4" md="3">/**flex-column sütun olarak yazdırıyor */
                 <div className='about__btns d-flex flex-column align-items-center'>
-                    <button className='about__btn about__btn-active' onClick={()=>setAboutFilter("ABOUT")}>About me</button>
-                    <button className='about__btn' onClick={()=>setAboutFilter("ABOUT")}>Education</button>
-                    <button className='about__btn'>Skills</button>
+                    <button className='about__btn about__btn-active' onClick={()=>setAboutFilter('ABOUT')}>About me</button>
+                    <button className='about__btn' onClick={()=>setAboutFilter('EDUCATION')}>Education</button>
+                    <button className='about__btn' onClick={()=>setAboutFilter('SKILLS')}>Skills</button>
                     <button className='about__btn'>Projects</button>
                 </div>
             </Col>
-            <Col lg="8" md='9'>
-                 
-                <div className='about__content__wrapper d-flex gap-5 mt-3'> 
+            <Col lg="8" md="9">
+                {aboutFilter === 'ABOUT' && (<div className='about__content__wrapper d-flex gap-5 mt-3'> 
                 
                     <div className='about__img w-25'>
                         <img src={aboutImg} alt='' className='w-100'></img>
@@ -41,8 +41,10 @@ const [aboutFilter,setAboutFilter]=useState("ABOUT");
                             <span><a href='#'><i class="ri-linkedin-line"></i></a></span>
                         </div>
                     </div>
-                </div>
-                 
+                </div>)} 
+                
+                {aboutFilter==='EDUCATION' && <Education/>}
+                {aboutFilter==='SKILLS' && <Skills/>}
             </Col>
         </Row>
     </Container>
