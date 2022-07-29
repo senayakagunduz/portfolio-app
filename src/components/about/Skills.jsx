@@ -1,78 +1,83 @@
-import React from 'react'
+import React from "react";
 import "./skills.css";
-const frontendSkills=[
-    {
-        title:'JavaScript',
-        width:'85%',
-        persantage:'85%'
-    },
-    {
-        title:'CSS',
-        width:'85%',
-        persantage:'85%'
-    },
-    {
-        title:'HTML',
-        width:'100%',
-        persantage:'100%'
-    },
-    {
-        title:'REACT.JS',
-        width:'90%',
-        persantage:'90%'
-    }
-]
-const backendSkills=[
-    {
-        title:'Java Spring',
-        width:'85%',
-        persantage:'85%'
-    },
-    {
-        title:'SQL Server',
-        width:'85%',
-        persantage:'85%'
-    },
-    {
-        title:'Postgre SQL',
-        width:'100%',
-        persantage:'100%'
-    },
-]
+const frontendSkills = [
+  {
+    title: "JAVASCRIPT",
+
+    percentage: "85%",
+  },
+  {
+    title: "CSS",
+
+    percentage: "85%",
+  },
+  {
+    title: "HTML",
+
+    percentage: "100%",
+  },
+  {
+    title: "REACT.JS",
+
+    percentage: "90%",
+  },
+];
+const backendSkills = [
+  {
+    title: "JAVA SPRING",
+
+    percentage: "85%",
+  },
+  {
+    title: "SQL SERVER",
+
+    percentage: "85%",
+  },
+  {
+    title: "POSTGRE SQL",
+
+    percentage: "100%",
+  },
+];
 const Skills = () => {
-  return(
-    <div className='skills_wrapper d-flex gap-5'>
-        <div className='frontend__skill'>
-            {
-                frontendSkills.map((item,index)=>{
-                    <div className='skill__data'>
-                        <div className='skill__title'>
-                            <h6>{item.title}</h6>
-                            <span>{item.width}</span>
-                        </div>
-                        <div className='skill__bar'>
-                            <span>{item.persantage}</span>
-                        </div>
-                    </div>
-                })
-            }
-        </div>
-        <div className='backend__skill'>
-            {backendSkills.map((item,index)=>{
-                <div className='skill__data'>
-                    <div className='skill__title'>
-                        <h6>{item.title}</h6>
-                        <span>{item.width}</span>
-                    </div>
-                    <div className='skill__bar'>
-                        <span className='skill__persantage'>{item.persantage}</span>
-                    </div>
-                </div>
-            })}
-        </div>
-
+  return (
+    <div className="skills_wrapper d-flex gap-5">
+      <div className="frontend__skill w-50">
+        {frontendSkills.map((item, index) => (
+          <SkillItem
+            key={index}
+            title={item.title}
+            percentage={item.percentage}
+          />
+        ))}
+      </div>
+      <div className="backend__skill w-50">
+        {backendSkills.map((item, index) => (
+          <SkillItem
+            key={index}
+            title={item.title}
+            percentage={item.percentage}
+          />
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
+const SkillItem = ({ title, percentage }) => {
+  return (
+    <div className="skill__data mb-3">
+      <div className="skill__title d-flex align-items-center justify-content-between">
+        <h6>{title}</h6>
+        <span>{percentage}</span>
+      </div>
+      <div className="skill__bar">
+        <span
+          className="skill__bar__percentage"
+          style={{ width: `${percentage}` }}
+        ></span>
+      </div>
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;

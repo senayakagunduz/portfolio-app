@@ -1,0 +1,34 @@
+.skills_wrapper{
+    margin-top: 24px;
+    background: #132347;
+    padding:20px;
+    border-radius: 10px;
+    color:#fff;
+}
+.skill__bar{
+    height: 5px;
+    width: 100%;
+    position: relative;
+    /* background: #fff; */
+    background: #c1ceff;
+
+    /* background: #102048; */
+    border-radius: 50px;
+    z-index: 999;
+}
+.skill__bar__percentage{
+    background: #8765ff;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    z-index:1000;
+    top:0;
+    left:0;
+    border-radius: 50px;
+}
+.skill__title span{
+    color:#fff;
+}
+.skill__title{
+    margin-bottom: 10px;
+}

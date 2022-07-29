@@ -5,7 +5,7 @@
     position: fixed;
     top:0;
     left:0;
-    z-index: 1;
+    z-index: 111111;
 }
 .logo h5{
     font-size: 1.3rem;
@@ -46,7 +46,7 @@
 .mobile__menu{
     display: none;
 }
-/* .header__shrink{
+.header__shrink{
     background: #132347;
     box-shadow: 2px 2px 4px -2px #7765ffbd;
-} */
+}
