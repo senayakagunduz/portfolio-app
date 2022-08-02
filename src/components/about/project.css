@@ -27,4 +27,16 @@
     margin-bottom: 15px;
    
 }
+@media only screen and (max-width:992px){
+    .project__year{
+        font-size: 0.8rem;
+
+    }
+    .project__title{
+        font-size: .7rem;
+    }
+    .project__title span{
+        font-size: .7rem;
+    }
+    }
 

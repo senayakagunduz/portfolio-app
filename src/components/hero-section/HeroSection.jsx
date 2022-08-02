@@ -9,8 +9,9 @@ const HeroSection = () => {
 
   useEffect(() => {
     init(textRef.current, {
+      backDelay: 1500,
       showCursor: false,
-      strings: ["Julie Bergman", "Web Developer", "Content Creator "],
+      strings: ["Web Developer"],
     });
   }, []);
 

@@ -15,7 +15,7 @@ const About = () => {
           <Col lg="12" className="mb-5">
             <h2>About Me</h2>{" "}
           </Col>
-          <Col lg="4" md="3" sm="2">
+          <Col lg="4" md="4" sm="4">
             /**flex-column sütun olarak yazdırıyor */
             <div className="about__btns d-flex flex-column align-items-center">
               <button
@@ -55,7 +55,7 @@ const About = () => {
               </button>
             </div>
           </Col>
-          <Col lg="8" md="9">
+          <Col lg="8" md="8" sm="8">
             {aboutFilter === "ABOUT" && (
               <div className="about__content__wrapper d-flex gap-5 mt-3">
                 <div className="about__img w-25">

@@ -12,3 +12,12 @@
     font-weight: 300 !important;
     font-size: .9rem;
 }
+@media only screen and (max-width:992px){
+    .single__testimonial p{
+        font-size: .8rem;
+    }
+    .text-center h2{
+        font-size: 1.5rem;
+    }
+}
+

@@ -24,10 +24,10 @@ const Experience = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="12" md="6" className="mb-5">
+          <Col lg="12" className="mb-5">
             <h2>Experience</h2>
           </Col>
-          <Col lg="6">
+          <Col lg="6" md="6">
             <div className="single__experience-container">
               {experienceData.map((item, index) => {
                 return (

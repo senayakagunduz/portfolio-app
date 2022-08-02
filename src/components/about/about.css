@@ -45,3 +45,22 @@ border-radius: 0px 0px 5px 5px;
     border-radius: 10px;
     
 }
+@media only screen and (max-width:992px){
+    .about__btn{
+        padding: 10px 25px;
+        font-size: 0.8rem;
+    }
+    .about__btns{
+        margin-bottom: 40px;
+    }
+    .about__content h2{
+        font-size: 1.5rem;
+    }
+    .about__content p{
+        font-size: .8rem;
+        line-height: 28px;
+    }
+    .about__img{
+        height: 100%;
+    }
+}
