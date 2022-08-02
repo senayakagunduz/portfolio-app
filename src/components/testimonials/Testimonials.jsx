@@ -18,7 +18,7 @@ const Testimonials = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="12" className="mb-5 text-center">
+          <Col lg="12" className="mb-3 text-center">
             <h2>What my clients says</h2>
           </Col>
           <Col lg="6" className="m-auto">

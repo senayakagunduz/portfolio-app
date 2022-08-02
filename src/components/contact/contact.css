@@ -17,3 +17,12 @@
 .container h3{
     padding: 10px;
 }
+@media only screen and (max-width:992px){
+    .single__info-box p{
+        font-size: .8rem;
+        line-height: 28px;
+    }
+    .single__info-box h6{
+        font-size: 1.2rem;
+    }
+}
