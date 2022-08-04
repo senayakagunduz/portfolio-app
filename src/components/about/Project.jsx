@@ -32,13 +32,12 @@ const Projects = () => {
         <Col className="w-50">
           <ProjectItem
             year="2020"
-            title="Agency Website"
+            title="Personal Portfolio Website"
             text=" React-Styled CSS-ES6"
           />
         </Col>
       </Row>
     </Container>
-    //  <div className='project__container d-flex align-items-center flex-wrap justify-content-between'></div>
   );
 };
 const ProjectItem = ({ year, title, text }) => {

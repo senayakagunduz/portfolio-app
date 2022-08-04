@@ -9,17 +9,17 @@ import img3 from "../../assets/img/godot.png";
 const portfolioData = [
   {
     imgUrl: img1,
-    title: "React Landing Page",
+    title: "Digital Agency Website",
     url: "#",
   },
   {
     imgUrl: img2,
-    title: "React Landing Page",
+    title: "Portfolio Website",
     url: "#",
   },
   {
     imgUrl: img3,
-    title: "React Landing Page",
+    title: "Godot Digital Agency Website",
     url: "#",
   },
 ];
