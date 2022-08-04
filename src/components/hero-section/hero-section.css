@@ -24,11 +24,10 @@ font-weight: 500;
     font-weight: 500;
 }             
 .hero__img{
-    width:400px;
-    height:500px;
+    width:350px;
     border-radius: 20px;
     background: #7865ff;
-    margin-left: auto;
+    margin-left: 10rem;
 }
 .hero__section{
     padding-top: 100px;
@@ -37,6 +36,43 @@ font-weight: 500;
   line-height: 30px;
   font-weight: 300;
 
+}
+.i-name{
+    font-size:60px;
+    
+}
+.i-title{
+    height:50px;
+    overflow: hidden;
+}
+.i-title-wrapper{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+.i-desc{
+    text-align: left;
+}
+@keyframes move{
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.i-title-item{
+    height:50px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    display: flex;
+    align-items: center;
 }
 /******Responsive*******/
 @media only screen and (max-width:992px){

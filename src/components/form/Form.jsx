@@ -1,40 +1,47 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./form.css";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
-  const [enteredName, setEnteredName] = useState("");
-  const [enteredEmail, setEnteredEmail] = useState("");
-  const [enteredMessage, setEnteredMessage] = useState("");
+  const formRef = useRef();
+  const [done, setDone] = useState(false);
 
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("submitted");
+    emailjs
+      .sendForm(
+        "service_d7k0h0b",
+        "template_y3j5r05",
+        formRef.current,
+        "oFnGLNtyBS5K8i-nk"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
-    <form className="form" onClick={submitHandler}>
+    <form className="form" ref={formRef} onSubmit={submitHandler}>
       <div className="form__input">
-        <input
-          type="text"
-          placeholder="Your name?"
-          value={enteredName}
-          onChange={(e) => setEnteredName(e.target.value)}
-        />
+        <input type="text" placeholder="Your name?" name="user_name" />
       </div>
       <div className="form__input">
-        <input
-          type="email"
-          placeholder="Your email?"
-          value={enteredEmail}
-          onChange={(e) => setEnteredEmail(e.target.value)}
-        />
+        <input type="text" placeholder="Subject" name="user_subject"></input>
+      </div>
+      <div className="form__input">
+        <input type="email" placeholder="Your email?" />
       </div>
       <div>
         <textarea
           className="form__input-textarea"
           rows="7"
           placeholder="Write your message"
-          value={enteredMessage}
-          onChange={(e) => setEnteredMessage(e.target.value)}
+          name="message"
         ></textarea>
       </div>
       <button className="submit__btn" type="submit">

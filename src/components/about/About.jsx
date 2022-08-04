@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assets/img/me.png";
+import aboutImg from "../../assets/img/profil.png";
 import Education from "./Education";
 import Skills from "./Skills";
 import Projects from "./Project";
@@ -63,11 +63,11 @@ const About = () => {
                 </div>
 
                 <div className="about__content w-75">
-                  <h2>I'm Julie Bergman</h2>
+                  <h2>I'm Şenay Akagündüz</h2>
                   <p>
                     I produce works that will bring your brand to the forefront
                     in every medium by considering your brand 360 degrees with
-                    contemplated and creative content and projects. We create
+                    contemplated and creative content and projects. I create
                     special projects for your brand by combining concepts and
                     user experience appropriate to your brand’s needs.
                   </p>

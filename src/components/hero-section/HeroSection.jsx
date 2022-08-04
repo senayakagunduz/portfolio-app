@@ -1,31 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import "./hero-section.css";
-import { init } from "ityped";
 import { Container, Row, Col } from "reactstrap";
-import Me from "../../assets/img/me.png";
+import Me from "../../assets/img/profil.png";
 
 const HeroSection = () => {
   const textRef = useRef(null);
-
-  useEffect(() => {
-    init(textRef.current, {
-      backDelay: 1500,
-      showCursor: false,
-      strings: ["Web Developer"],
-    });
-  }, []);
-
-  //   useEffect(()=>{
-  //     init(textRef.current,{
-  //         backDelay:1500,
-  //         showCursor:true,
-  //         strings:[
-  //             "Julie Bergman",
-  //             "Web Developer",
-  //             "Content Creator"
-  //         ]
-  //     })
-  //   },[])
   return (
     <section className="hero__section" id="home">
       <Container>
@@ -35,10 +14,18 @@ const HeroSection = () => {
               <p className="mb-3">Welcome to my world</p>
               <h2 className="hero__title mb-4">
                 {" "}
-                I am <span ref={textRef}></span>
+                <h1 className="i-name">Şenay Akagündüz</h1>
+                <div className="i-title">
+                  <div className="i-title-wrapper">
+                    <div className="i-title-item">Frontend Developer</div>
+                    <div className="i-title-item">Web Developer</div>
+                    <div className="i-title-item">UI/UX Designer</div>
+                    <div className="i-title-item">Content builder</div>
+                  </div>
+                </div>
               </h2>
               <p>
-                We combine current design trends with your brand’s identity and
+                I combine current design trends with your brand’s identity and
                 offer user-friendly websites solutions that appeal to the user.
                 With our sectoral experience, we take steps in the light of
                 technological developments and ensure that your brand targets

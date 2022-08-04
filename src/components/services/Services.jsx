@@ -6,32 +6,32 @@ const servicesData = [
   {
     icon: "ri-code-line",
     title: "Web Design",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Responsive Across All Platforms: ensures that your website runs smoothly and responsively across all devices. We optimize desktop, tablet and mobile versions.",
   },
   {
     icon: "ri-code-s-slash-line",
     title: "Web Development",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Development: Content consolidation like accolades, case studies, copywriting for your website, images then development proper for the website.   ",
   },
   {
     icon: "ri-code-line",
     title: "UI/UX",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Custom Graphics And Development:Site Troopers tailors your website with a fully custom build and development. The website will have unique graphics and design to suit your brand image.",
   },
   {
     icon: "ri-qr-code-line",
     title: "App Development",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Website Design Tailored For Your Business: The goal of our company is to provide as much value to your brand/business with our services. Our team has the skills and expertise to elevate your brand digitally.",
   },
   {
     icon: "ri-search-line",
     title: "SEO",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Search Engine Optimization:Rank on Google's top page without paid marketing. Our team researches and strategizes keywords that will obtain you a top search engine ranking.",
   },
   {
     icon: "ri-landscape-line",
     title: "Graphic Design",
-    desc: "We use Mailchimp to help use communicate updates to different departments in the organization. When we need to update a team and see how many people opened the email, clicked on the content in it, and/or watched the videos it's been really helpful. We use Mailchimp as a purely internal communication tool",
+    desc: "Website looks clean and modern just like they had imagined. The website illustrates their brand image and is a platform where they can sell their products.",
   },
 ];
 
