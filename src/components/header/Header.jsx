@@ -32,7 +32,7 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h5>Julie</h5>
+            <h5>Şenay</h5>
           </div>
           <div className="nav__menu">
             <ul className="nav__list">

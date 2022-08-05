@@ -37,7 +37,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section id="section">
+    <section id="services">
       <Container>
         <Row>
           <Col lg="12" mb="5" className="services__top ">
