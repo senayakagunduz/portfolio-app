@@ -74,29 +74,31 @@ const About = () => {
 
                   <div className="social__links">
                     <h6 className="mb-3">Connect width me:</h6>
+
                     <span>
-                      <a href="#">
-                        <i className="ri-facebook-line"></i>
-                      </a>
-                    </span>
-                    <span>
-                      <a href="#">
+                      <a href="https://www.youtube.com" target="_blank">
                         <i className="ri-youtube-line"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a
+                        href="https://twitter.com/senayakgnz?t=8DfBwrwQDSrFv0659TX2PA&s=08"
+                        target="_blank"
+                      >
                         <i className="ri-twitter-line"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
-                        <i className="ri-instagram-line"></i>
+                      <a
+                        href="https://www.linkedin.com/in/%C5%9Fenay-akag%C3%BCnd%C3%BCz-b3986b180"
+                        target="_blank"
+                      >
+                        <i className="ri-linkedin-line" />
                       </a>
                     </span>
                     <span>
-                      <a href="#">
-                        <i className="ri-linkedin-line"></i>
+                      <a href="https://www.instagram.com" target="_blank">
+                        <i className="ri-instagram-line" />
                       </a>
                     </span>
                   </div>
