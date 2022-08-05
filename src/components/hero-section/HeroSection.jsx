@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-// import Me from "../../assets/img/profil.png";
+import Me from "../../assets/img/me.png";
 
 const HeroSection = () => {
   const textRef = useRef(null);
@@ -41,11 +41,7 @@ const HeroSection = () => {
           </Col>
           <Col lg="6" md="6">
             <div className="hero__img">
-              <img
-                src="../../assets/img/profil.png"
-                alt=""
-                className="w-100 h-100"
-              />
+              <img src={Me} alt="" className="w-100 h-100" />
             </div>
           </Col>
         </Row>
