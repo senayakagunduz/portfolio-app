@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="contact__info-container">
               <div className="single__info-box">
                 <h6>Email</h6>
-                <p>example@gmail.com</p>
+                <p>senayakagndz@gmail.com</p>
               </div>
             </div>
             <div className="contact__info-container">
