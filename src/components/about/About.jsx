@@ -60,7 +60,7 @@ const About = () => {
             {aboutFilter === "ABOUT" && (
               <div className="about__content__wrapper d-flex gap-5 mt-3">
                 <div className="about__img w-25">
-                  <img src={me} alt="" className="w-100"></img>
+                  <img src={Me} alt="" className="w-100"></img>
                 </div>
 
                 <div className="about__content w-75">
