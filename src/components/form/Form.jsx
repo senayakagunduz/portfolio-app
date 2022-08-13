@@ -26,7 +26,7 @@ const Form = () => {
       );
   };
   return (
-    <form className="form" ref={formRef} onSubmit={submitHandler}>
+    <form className="form" id="form" ref={formRef} onSubmit={submitHandler}>
       <div className="form__input">
         <input type="text" placeholder="Your name?" name="user_name" />
       </div>

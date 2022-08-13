@@ -10,17 +10,17 @@ const portfolioData = [
   {
     imgUrl: img1,
     title: "Digital Agency Website",
-    url: "#",
+    url: "https://digital-agencynetwork.herokuapp.com/",
   },
   {
     imgUrl: img2,
     title: "Portfolio Website",
-    url: "#",
+    url: "https://senayakagndz-myportfolio.herokuapp.com/",
   },
   {
     imgUrl: img3,
     title: "Godot Digital Agency Website",
-    url: "#",
+    url: "https://godot-agency.herokuapp.com/",
   },
 ];
 const Portfolio = () => {
@@ -43,7 +43,9 @@ const Portfolio = () => {
                   <div className="portfolio__content">
                     <div className="content__top">
                       <h5>{title}</h5>
-                      <a href={url}>View Live Demo</a>
+                      <a href={url} target="_blank">
+                        View Live Demo
+                      </a>
                     </div>
                   </div>
                 </div>

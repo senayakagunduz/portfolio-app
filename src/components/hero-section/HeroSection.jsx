@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-import Me from "../../assets/img/me.png";
+// import Me from "../../assets/img/me.png";
+import profile from "../../assets/img/profilim.png";
 
 const HeroSection = () => {
   const textRef = useRef(null);
@@ -36,12 +37,14 @@ const HeroSection = () => {
               <button className="btn hire__btn">
                 <a href="#">Hire me</a>
               </button>
-              <button className="btn contact__btn">Contact</button>
+              <button className="btn contact__btn">
+                <a href="#form">Contact</a>
+              </button>
             </div>
           </Col>
           <Col lg="6" md="6">
             <div className="hero__img">
-              <img src={Me} alt="" className="w-100 h-100" />
+              <img src={profile} alt="" className="w-100 h-100" />
             </div>
           </Col>
         </Row>

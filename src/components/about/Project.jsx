@@ -45,7 +45,8 @@ const ProjectItem = ({ year, title, text }) => {
     <div className="single__project">
       <div className="project__year">{year}</div>
       <h6 className="project__title">
-        {title}- <span>{text}</span>
+        {title}
+        <span>{text}</span>
       </h6>
     </div>
   );
