@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-// import Me from "../../assets/img/me.png";
-import profile from "../../assets/img/profilim.png";
+import Me from "../../assets/img/me.png";
+// import profile from "../../assets/img/profilim.png";
 import Education from "./Education";
 import Skills from "./Skills";
 import Projects from "./Project";
@@ -60,7 +60,7 @@ const About = () => {
             {aboutFilter === "ABOUT" && (
               <div className="about__content__wrapper d-flex gap-5 mt-3">
                 <div className="about__img w-25">
-                  <img src={profile} alt="" className="w-100"></img>
+                  <img src={me} alt="" className="w-100"></img>
                 </div>
 
                 <div className="about__content w-75">
