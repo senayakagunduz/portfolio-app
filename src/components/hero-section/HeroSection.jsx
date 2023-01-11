@@ -38,7 +38,7 @@ const HeroSection = () => {
                 <a href="#">Hire me</a>
               </button>
               <button className="btn contact__btn">
-                <a href="#form">Contact</a>
+                <a href="#form" rel="noreferrer" >Contact</a>
               </button>
             </div>
           </Col>

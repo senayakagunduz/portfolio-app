@@ -43,7 +43,7 @@ const Portfolio = () => {
                   <div className="portfolio__content">
                     <div className="content__top">
                       <h5>{title}</h5>
-                      <a href={url} target="_blank">
+                      <a href={url} target="_blank" rel="noreferrer" >
                         View Live Demo
                       </a>
                     </div>

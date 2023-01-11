@@ -77,14 +77,14 @@ const About = () => {
                     <h6 className="mb-3">Connect width me:</h6>
 
                     <span>
-                      <a href="https://www.youtube.com" target="_blank">
+                      <a href="https://www.youtube.com" target="_blank" rel="noreferrer" >
                         <i className="ri-youtube-line"></i>
                       </a>
                     </span>
                     <span>
                       <a
                         href="https://twitter.com/senayakgnz?t=8DfBwrwQDSrFv0659TX2PA&s=08"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <i className="ri-twitter-line"></i>
                       </a>
@@ -92,13 +92,13 @@ const About = () => {
                     <span>
                       <a
                         href="https://www.linkedin.com/in/%C5%9Fenay-akag%C3%BCnd%C3%BCz-b3986b180"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <i className="ri-linkedin-line" />
                       </a>
                     </span>
                     <span>
-                      <a href="https://www.instagram.com" target="_blank">
+                      <a href="https://www.instagram.com" target="_blank" rel="noreferrer" >
                         <i className="ri-instagram-line" />
                       </a>
                     </span>

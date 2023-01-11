@@ -39,7 +39,7 @@ const Header = () => {
             <ul className="nav__list">
               {navLinks.map((item, index) => (
                 <li className="nav__item" key={index}>
-                  <a href={item.url}>{item.display}</a>
+                  <a href={item.url} rel="noreferrer" >{item.display}</a>
                 </li>
               ))}
             </ul>
