@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
 import Me from "../../assets/img/me.png";
 // import profile from "../../assets/img/profilim.png";
 
 const HeroSection = () => {
-  const textRef = useRef(null);
   return (
     <section className="hero__section" id="home">
       <Container>
@@ -35,7 +34,7 @@ const HeroSection = () => {
             </div>
             <div className="hero__btns d-flex align-items-center gap-4 mt-5">
               <button className="btn hire__btn">
-                <a href="#">Hire me</a>
+                <a href="/#" rel="noreferrer" >Hire me</a>
               </button>
               <button className="btn contact__btn">
                 <a href="#form" rel="noreferrer" >Contact</a>

@@ -17,7 +17,6 @@ const About = () => {
             <h2>About Me</h2>{" "}
           </Col>
           <Col lg="4" md="4" sm="4">
-            /**flex-column sütun olarak yazdırıyor */
             <div className="about__btns d-flex flex-column align-items-center">
               <button
                 className={`about__btn ${

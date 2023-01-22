@@ -1,11 +1,13 @@
 .portfolio__top h6{
     color:#7865ff;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .portfolio__card{
     position: relative;
     z-index: 90;
     cursor: pointer;
+    padding:5px;
+    margin: 5px;
 }
 .portfolio__card:hover .portfolio__content{
     transform: translateY(0);

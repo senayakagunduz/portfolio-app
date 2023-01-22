@@ -7,9 +7,9 @@ const frontendSkills = [
     percentage: "85%",
   },
   {
-    title: "CSS",
+    title: "REACT.JS",
 
-    percentage: "85%",
+    percentage: "90%",
   },
   {
     title: "HTML",
@@ -17,9 +17,16 @@ const frontendSkills = [
     percentage: "100%",
   },
   {
-    title: "REACT.JS",
+    title: "CSS",
+
+    percentage: "85%",
+    
+  },
+  {
+    title: "BOOTSTRAP",
 
     percentage: "90%",
+   
   },
 ];
 const backendSkills = [

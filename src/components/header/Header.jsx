@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Container } from "reactstrap";
 import "./header.css";
 import ReactWhatsapp from "react-whatsapp";
@@ -27,11 +27,10 @@ const navLinks = [
 ];
 
 const Header = () => {
-  const menuRef = useRef(null);
   return (
     <header className="header">
       <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
+        <div className="navigation d-flex align-items-center justify-content-between sticky-top">
           <div className="logo">
             <h5>Şenay</h5>
           </div>

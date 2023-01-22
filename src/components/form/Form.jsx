@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const formRef = useRef();
-  const [done, setDone] = useState(false);
+  const [done,setDone] = useState(false);
 
   const submitHandler = (e) => {
     e.preventDefault();
