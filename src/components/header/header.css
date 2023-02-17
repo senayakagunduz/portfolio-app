@@ -24,13 +24,13 @@
 
 }
 
-.nav__item a {
+ .nav__item a {
     color: #fff;
     transition: .3s;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 900;
     cursor: pointer;
-}
+} 
 
 .nav__item a:hover {
     color: #7865FF;
@@ -106,4 +106,9 @@
         height: 50px;
         line-height: 50px;
     }
+}
+.brand{
+    color:#fff;
+    font-weight: 700;
+    
 }

@@ -8,30 +8,37 @@ const Projects = () => {
       <Row lg="6" mb="6" className="d-flex">
         <Col className="w-50">
           <ProjectItem
-            year="2020"
-            title="Digital Agency Website"
-            text=" React-CSS-ES6"
+            year="2023"
+            title="Weather App for five days"
+            text=" React-Tailwind-Axios-ES6"
           />
         </Col>
         <Col className="w-50">
           <ProjectItem
-            year="2020"
-            title="Portfolio Website"
-            text=" React Digital Agency Website"
+            year="2023"
+            title="English Dictionary"
+            text=" React-Tailwind-ContextApi-Axios"
           />
         </Col>
       </Row>
       <Row lg="6" mb="6" className="d-flex">
         <Col className="w-50">
           <ProjectItem
-            year="2020"
-            title="Agency Website"
-            text=" React-Styled CSS-ES6"
+            year="2023"
+            title="Nft Landing Page"
+            text=" React-Bootstrap-Css-React icon"
           />
         </Col>
         <Col className="w-50">
           <ProjectItem
-            year="2020"
+            year="2022"
+            title="Todo App"
+            text=" React-Bootstrap-Local Storage-ES6"
+          />
+        </Col>
+        <Col className="w-50">
+          <ProjectItem
+            year="2022"
             title="Personal Portfolio Website"
             text=" React-Styled CSS-ES6"
           />

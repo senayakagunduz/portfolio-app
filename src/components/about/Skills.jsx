@@ -28,8 +28,20 @@ const frontendSkills = [
     percentage: "90%",
    
   },
+  
 ];
-const backendSkills = [
+const otherSkills = [
+  {
+    title: "GITHUB",
+
+    percentage: "90%",
+   
+  },
+   {
+    title: "POSTGRE SQL",
+
+    percentage: "100%",
+  },
   {
     title: "JAVA SPRING",
 
@@ -41,10 +53,12 @@ const backendSkills = [
     percentage: "85%",
   },
   {
-    title: "POSTGRE SQL",
+    title: "TAILWIND",
 
-    percentage: "100%",
+    percentage: "90%",
+   
   },
+ 
 ];
 const Skills = () => {
   return (
@@ -59,7 +73,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="backend__skill w-50">
-        {backendSkills.map((item, index) => (
+        {otherSkills.map((item, index) => (
           <SkillItem
             key={index}
             title={item.title}

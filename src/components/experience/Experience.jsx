@@ -4,19 +4,19 @@ import { Container, Row, Col } from "reactstrap";
 
 const experienceData = [
   {
-    year: "2022-2021",
+    year: "2022-2023",
     title: "Frontend Developer",
-    desc: " I produced bootstrap web projects, such as portfolio and digital agency websites. My projects are in React, I used Bootstrap, Reactstrap, ES6, CSS and HTML",
+    desc: " I produced web projects, such as portfolio, digital agency websites,NFT Website,forecast app,dictionary app etc. My projects are in React, I used Bootstrap, Reactstrap, ES6, CSS and HTML",
   },
   {
-    year: "2021-2020",
+    year: "2020-2021",
     title: "Backend Developer",
     desc: " I produced some Java Spring projects,these are Human Recourse api and School management api, they are creative content and projects",
   },
   {
-    year: "2020-2019",
+    year: "2019-2020",
     title: "Frontend Developer",
-    desc: " I produce works that will bring your brand to the forefront in every medium by considering your brand 360 degrees with contemplated and creative content and projects",
+    desc: " I produce projects that will works html,css and vanilla JavaScript.",
   },
 ];
 const Experience = () => {
