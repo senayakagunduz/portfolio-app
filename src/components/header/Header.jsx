@@ -44,14 +44,14 @@ const Header = () => {
             </ul>
           </div>
           <div className="nav__right d-flex align-items-center gap-4">
-            <ReactWhatsapp
+            {/* <ReactWhatsapp
               number="+90-539-663-7014"
               message="Hello World!!!"
               target="_blank"
               style={{ background: "#0E1B31", border: "none" }}
             >
-              <button className="btn"> Let's Talk</button>
-            </ReactWhatsapp>
+             <button className="btn"> Let's Talk</button>
+            </ReactWhatsapp> */}
 
             <span className="mobile__menu">
               <i className="ri-menu-5-line"></i>

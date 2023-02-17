@@ -12,9 +12,9 @@ const HeroSection = () => {
           <Col lg="6" md="6">
             <div className="hero__content">
               <p className="mb-3">Welcome to my world</p>
-              <h2 className="hero__title mb-4">
+              <div className="hero__title mb-4">
                 {" "}
-                <h1 className="i-name">Şenay Akagündüz</h1>
+                <h2 className="i-name">Şenay Akagündüz</h2>
                 <div className="i-title">
                   <div className="i-title-wrapper">
                     <div className="i-title-item">Frontend Developer</div>
@@ -23,7 +23,7 @@ const HeroSection = () => {
                     <div className="i-title-item">Content builder</div>
                   </div>
                 </div>
-              </h2>
+              </div>
               <p>
                 I combine current design trends with your brand’s identity and
                 offer user-friendly websites solutions that appeal to the user.
