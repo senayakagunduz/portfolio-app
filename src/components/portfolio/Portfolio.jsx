@@ -4,14 +4,16 @@ import { Container, Row, Col } from "reactstrap";
 
 import img1 from "../../assets/img/emoji.png"
 import img2 from "../../assets/img/asiankitchen.png";
-import img3 from "../../assets/img/dictionary-tailwind.png";
+import img3 from "../../assets/img/dict.png";
 import img4 from "../../assets/img/jokes.png";
 import img5 from "../../assets/img/linkedin.png";
 import img6 from "../../assets/img/weather.png"
 import img7 from "../../assets/img/medium.png"
 import img8 from "../../assets/img/nft.png"
 import img9 from "../../assets/img/tour.png"
-import img10 from "../../assets/img/js-dictionary.png";
+import img10 from "../../assets/img/digital-agency.png";
+import img11 from "../../assets/img/godot.png";
+import img12 from "../../assets/img/portfolio.png";
 
 
 const portfolioData = [
@@ -19,7 +21,7 @@ const portfolioData = [
     imgUrl:img1,
     title:"Emoji",
     url:"https://senayakgndz-feedback-js.netlify.app",
-    sourceCode:""
+    sourceCode:"https://github.com/senayakagunduz/feedback-js"
   },
   {
     imgUrl: img2,
@@ -36,13 +38,13 @@ const portfolioData = [
   {
     imgUrl:img4,
     title:"Jokes Generator ",
-    url:"https://senayakgndz-jokes.netlify.app https://senayakagunduz-mediumclone.netlify.app/",
-    sourceCode:""
+    url:"https://senayakgndz-jokes.netlify.app",
+    sourceCode:"https://github.com/senayakagunduz/dad_jokes"
   },
   {
     imgUrl:img5,
     title:"Linkedin Clone ",
-    url:"https://senayakagunduz-linkedinclone.netlify.app/ ",
+    url:"https://senayakagunduz-linkedinclone.netlify.app",
     sourceCode:"https://github.com/senayakagunduz/linkedinclone"
   },
   {
@@ -72,10 +74,23 @@ const portfolioData = [
   },
   {
     imgUrl: img10,
-    title: "English Dictionary in JavaScript",
+    title: "Digital Agency Website",
+    url: "",
+    sourceCode:"https://github.com/senayakagunduz/digital-agency-site"
+  },
+  {
+    imgUrl: img11,
+    title: "Godot Website",
     url: "https://senayakgndz-dictionary-js.netlify.app",
     sourceCode:"https://github.com/senayakagunduz/english-dictionary-js"
   },
+  {
+    imgUrl: img12,
+    title: "Portfolio Website",
+    url: "",
+    sourceCode:"https://github.com/senayakagunduz/portfolio-site"
+  },
+
   
 ];
 const Portfolio = () => {
