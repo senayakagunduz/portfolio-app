@@ -2,18 +2,18 @@ import React from "react";
 import "./portfolio.css";
 import { Container, Row, Col } from "reactstrap";
 
-import img1 from "../../assets/img/emoji.png"
-import img2 from "../../assets/img/asiankitchen.png";
-import img3 from "../../assets/img/dict.png";
-import img4 from "../../assets/img/jokes.png";
-import img5 from "../../assets/img/linkedin.png";
-import img6 from "../../assets/img/weather.png"
-import img7 from "../../assets/img/medium.png"
-import img8 from "../../assets/img/nft.png"
-import img9 from "../../assets/img/tour.png"
-import img10 from "../../assets/img/digital-agency.png";
-import img11 from "../../assets/img/godot.png";
-import img12 from "../../assets/img/portfolio.png";
+import img1 from "../../assets/emoji.png"
+import img2 from "../../assets/asiankitchen.png";
+import img3 from "../../assets/dict.png";
+import img4 from "../../assets/jokes.png";
+import img5 from "../../assets/linkedin.png";
+import img6 from "../../assets/weather.png"
+import img7 from "../../assets/medium.png"
+import img8 from "../../assets/nft.png"
+import img9 from "../../assets/tour.png"
+import img10 from "../../assets/digital-agency.png";
+import img11 from "../../assets/godot.png";
+import img12 from "../../assets/portfolio.png";
 
 
 const portfolioData = [

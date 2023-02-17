@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
-import Me from "../../assets/img/me.png";
+import Me from "../../assets/me.png";
 
 const HeroSection = () => {
   return (

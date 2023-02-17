@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import Me from "../../assets/img/me.png";
+import Me from "../../assets/me.png";
 // import profile from "../../assets/img/profilim.png";
 import Education from "./Education";
 import Skills from "./Skills";
