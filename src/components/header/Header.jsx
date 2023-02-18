@@ -36,16 +36,17 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg  ml-2 mr-2 " style={{ backgroundColor: "#7865FF" }}>
       <div className="container">
         <a className="navbar-brand brand" href="/#">Şenay</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-around nav__menu" id="navbarSupportedContent">
-          <ul className="navbar-nav nav__list ">
+      
+        <div className="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+          <ul className="navbar-nav ">
             {
               navLinks.map((link) => {
                 const { display, url,id } = link;
                 return (
-                  <li key={id} className="nav-item links ">
+                  <li key={id} className="nav__item links ">
                     <a className="nav-link  brand" rel="noreferrer" href={url}>{display}</a>
                   </li>
                 )
@@ -53,6 +54,7 @@ const Header = () => {
             }
           </ul>
         </div>
+        
       </div>
 
     </nav>
