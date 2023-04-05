@@ -1,6 +1,7 @@
 /****google fonts******/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet');
 
 /*******************base style*******************/
 *{
@@ -38,11 +39,11 @@ ul{
 }
 a{
   color:unset;
-  font-family: "Lato" sans-serif
+  font-family: "Lato" sans-serif;
 }
 a:hover{
   color:unset;
-  font-family:"Lato" sans-serif
+  font-family:"Lato" sans-serif;
 }
 section,footer{
   padding: 60px 0px;

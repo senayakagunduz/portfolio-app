@@ -1,114 +1,64 @@
-.header {
-    width: 100%;
-    height: 70px;
-    line-height: 70px;
-    /* position: fixed; */
-    /* top:0; */
-    /* z-index: 111111; */
-    left: 0; 
-    position: fixed;
+:root{
+    --color1:aliceblue;
+    --color2:#ba23c6;
+    --color3:#7865FF;
+    --color4:#132347;
+    --color5:#018A80;
+    --color6:#FDA475;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: #7865FF;
+    z-index: 1;
+   
+}
+nav.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: var(--color3);   */
+    /* z-index: 2; */
     overflow: hidden;
-    top: 0px;
-    z-index: 10;
+    /* width: 100%; */
+    padding:0 15px;
 }
-
-.logo h5 {
-    font-size: 1.3rem;
-    color: #7865FF;
-}
-
-.nav__list {
+div.logo{
     display: flex;
     align-items: center;
-    column-gap: 2.7rem;
-
 }
-
- .nav__item a {
-    color: #fff;
-    transition: .3s;
-    text-decoration: none;
-    font-weight: 900;
-    cursor: pointer;
-} 
-
-.nav__item a:hover {
-    color: #7865FF;
+div.logo img{
+width: 80px;
+height: 80px;
+margin-left: 10rem;
+transform: translateX();
 }
-
-.btn {
-    background-color: #7865FF;
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-size: .9rem;
-    padding: 7px 25px;
+.nav-bar ul{
+  list-style-type: none;
+  margin:0;padding:0;
+  display: flex;
+  gap:20px;/*flex yapılarda elemanların aralarını açmak için gap kullanırız*/
+  margin-right: 10rem;
 }
-
-.btn:hover {
-    color: #fff;
+.nav-bar ul li{
+    color:var(--color1);
+    display: flex;
 }
-
-.mobile__menu i {
-    color: #fff;
-    font-size: 1.3rem;
+.nav-bar ul li a{
+ text-decoration: none; 
+ font-size: 1.2rem; 
+ display: inline-block; 
+ padding:5px 10px;
 }
-
-.mobile__menu {
-    display: none;
-}
-
-.header__shrink {
-    background: #132347;
-    box-shadow: 2px 2px 4px -2px #7765ffbd;
-}
-
-/**=====================responsive================*/
-@media only screen and (max-width:992px) {
-    .nav__menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #7565ff69;
-        z-index: 888888;
-        display: none;
-    }
-
-    .nav__list {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 250px;
-        height: 100%;
-        background: #132347;
-        z-index: 99999;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu__active {
-        display: block;
-    }
-
-    .mobile__menu {
-        display: block;
-    }
-
-    btn {
-        display: none;
-    }
-
-    .header {
-        height: 50px;
-        line-height: 50px;
-    }
-}
-.brand{
-    color:#fff;
+.nav-bar ul li a:hover{
+    background-color: var(--color6);
+    color:var(--color4);
+    border-radius: 10px;
     font-weight: 700;
-    
 }
+
+
+
+
