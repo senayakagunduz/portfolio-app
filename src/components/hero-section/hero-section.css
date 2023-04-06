@@ -1,14 +1,16 @@
 .hire__btn{
-background: #fff;
-color:#0E1B31;
+    color:#e8e4e9;
+    background-color: #7865ff;
 
 }
-.hire__btn a{
+.hire__btn a, .contact__btn a{
 text-decoration: none;
 font-weight: 500;
 }
-.hire__btn a:hover {
-    color:#0E1B31;
+.hire__btn:hover {
+    color:#7865ff;
+    background-color: #e8e4e9;
+    font-weight: 500;
 }
 .hero__title span{
     color:#7865ff;
@@ -17,10 +19,12 @@ font-weight: 500;
     font-weight: 600;
 }
 .contact__btn{
-    color:#fff;
+    color:#e8e4e9;
+    background-color: #7865ff;
 }
 .contact__btn:hover{
-    color:#0E1B31;
+    color:#7865ff;
+    background-color: #e8e4e9;
     font-weight: 500;
 }             
 .hero__img{

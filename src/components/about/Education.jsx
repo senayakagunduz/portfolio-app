@@ -39,9 +39,9 @@ const Education = () => {
         </tr>
         <tr>
         <td>BBA</td>
-          <td>Computer Engineering</td>
+          {/* <td>Computer Engineering</td>
           <td>Baku Engineering University</td>
-          <td>2005-2010</td>
+          <td>2005-2010</td> */}
         </tr>
       </tbody>
     </table>
