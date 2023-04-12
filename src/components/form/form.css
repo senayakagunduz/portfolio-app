@@ -29,6 +29,11 @@
     color:#fff;
     background: #7865ff;
     padding:10px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
 }
 .submit__btn:hover{
     color:#7865ff;

@@ -33,7 +33,7 @@ const HeroSection = () => {
             </div>
             <div className="hero__btns d-flex align-items-center gap-4 mt-5">
               <button className="btn hire__btn">
-                <a href="/#" rel="noreferrer" >Hire me</a>
+                <a href="/#" rel="noreferrer">Hire me</a>
               </button>
               <button className="btn contact__btn">
                 <a href="#form" rel="noreferrer" >Contact</a>

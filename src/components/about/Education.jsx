@@ -14,6 +14,12 @@ const Education = () => {
       </thead>
       <tbody>
         <tr>
+        <td>TechPro Education</td>
+          <td>Front-End Eğitimi</td>
+          <td>Mr.Scot</td>
+          <td>2023</td>
+        </tr>
+        <tr>
         <td>Patika.dev</td>
           <td>Front-End Patikası</td>
           <td>Hakan Yalçınkaya</td>
@@ -31,18 +37,18 @@ const Education = () => {
           <td>John Simulga</td>
           <td>2022</td>
         </tr>
-        <tr>
+        {/* <tr>
           <td>Unite BT</td>
           <td>İş analisti ve yazılım geliştirme</td>
           <td>Work Experience</td>
-          <td>2012-1014</td>
-        </tr>
-        <tr>
-        <td>BBA</td>
-          {/* <td>Computer Engineering</td>
+          <td>2012-2015</td>
+        </tr> */}
+        {/* <tr>  
+          <td>BBA</td>
+          <td>Computer Engineering</td>
           <td>Baku Engineering University</td>
-          <td>2005-2010</td> */}
-        </tr>
+          <td>2005-2010</td>
+        </tr> */}
       </tbody>
     </table>
   );

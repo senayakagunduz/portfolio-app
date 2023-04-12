@@ -33,6 +33,14 @@ font-weight: 500;
     background: #7865ff;
     margin-left: 10rem;
 }
+.hero__img img{
+    box-shadow: 20px 20px 50px rgb(81, 123, 222);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 .hero__section{
     padding-top: 100px;
 }
