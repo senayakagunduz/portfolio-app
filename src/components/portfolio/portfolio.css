@@ -1,4 +1,4 @@
-.portfolio__top h6{
+/* .portfolio__top h6{
     color:#7865ff;
     margin-bottom: 20px;
 }
@@ -64,4 +64,11 @@
 }
 .portfolio__img img{
     border-radius: 5px;
+} */
+.card-body {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 10px 0 !important;
 }

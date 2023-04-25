@@ -35,31 +35,36 @@ const navLinks = [
 
 const Header = () => {
   return (
-  <header>
-      <nav className="nav-bar">
-          <div className="logo">
+  
+    <nav className="navbar navbar-expand-lg fixed-top"> 
+    <div className="container-fluid">
+      <div className="navbar-brand logo">
               <img src={logo_bird} alt=""/>
               <h3>Reach Your Dreams</h3>
-          </div>
-         
-              <ul>
+      </div>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul className="navbar-nav ms-auto gap-5 px-4">
         {
           navLinks.map((link) => {
             const { display, id, url } = link;
             return (
-              <li key={id}>
-                <a href={url} rel="noreferrer">{display}</a>
+              <li className="nav-item" key={id}>
+                <a className="nav-link active" href={url} rel="noreferrer">{display}</a>
               </li>
             )
           })
         }
-              </ul>
-      </nav>
-      {/* <div className="whatsapp">
-        <img src={whatsapp} style={{width:"50px"}}/>
-      </div> */}
-  </header>
-  
+      </ul>
+    </div>
+    </div>
+    </nav>
   )
 }
 export default Header;
+
+       {/* <div className="whatsapp">
+        <img src={whatsapp} style={{width:"50px"}}/>
+      </div> */}

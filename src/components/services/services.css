@@ -4,6 +4,7 @@ padding: 20px;
 border-radius: 5px;
 cursor: pointer;
 border-bottom: 1px solid #7865ff;
+height:300px;
 }
 .single__service:hover{
     transform: translateY(-15px);
