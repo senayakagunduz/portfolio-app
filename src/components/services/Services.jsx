@@ -30,7 +30,7 @@ const servicesData = [
   },
   {
     icon: "ri-landscape-line",
-    title: "Graphic Design",
+    title: "Responsive Design",
     desc: "Website looks clean and modern just like they had imagined. The website illustrates their brand image and is a platform where they can sell their products.",
   },
 ];

@@ -46,7 +46,7 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul className="navbar-nav ms-auto gap-5 px-4">
+      <ul className="navbar-nav ms-auto gap-4 px-5">
         {
           navLinks.map((link) => {
             const { display, id, url } = link;

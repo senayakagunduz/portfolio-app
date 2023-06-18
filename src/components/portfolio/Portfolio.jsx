@@ -96,7 +96,11 @@ const portfolioData = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
+      
       <div className="container">
+      <Col lg="12" className="mb-5">
+            <h2>Projects</h2>
+        </Col>
       <div className="row row-portfolio mx-5">
         {portfolioData.map((item, index) => {
           const { imgUrl, title, url, sourceCode } = item;

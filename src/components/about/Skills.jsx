@@ -3,60 +3,36 @@ import "./skills.css";
 const frontendSkills = [
   {
     title: "JAVASCRIPT",
-
-    percentage: "85%",
   },
   {
     title: "REACT.JS",
-
-    percentage: "90%",
   },
   {
     title: "HTML",
-
-    percentage: "100%",
   },
   {
     title: "CSS",
-
-    percentage: "85%",
-    
   },
   {
     title: "BOOTSTRAP",
-
-    percentage: "90%",
-   
   },
   
 ];
 const otherSkills = [
   {
     title: "GITHUB",
-
-    percentage: "90%",
-   
-  },
-   {
-    title: "POSTGRE SQL",
-
-    percentage: "100%",
-  },
-  {
-    title: "JAVA SPRING",
-
-    percentage: "85%",
-  },
-  {
-    title: "SQL SERVER",
-
-    percentage: "85%",
   },
   {
     title: "TAILWIND",
-
-    percentage: "90%",
-   
+  },
+  {
+    title: "POSTMAN",
+  },
+  {
+    title: "SASS",
+  },
+  {
+    title: "WEBPACK",
   },
  
 ];

@@ -18,36 +18,32 @@ const About = () => {
           <Col lg="4" md="4" sm="4">
             <div className="about__btns d-flex flex-column align-items-center">
               <button
-                className={`about__btn ${
-                  aboutFilter === "ABOUT" ? "about__btn-active" : ""
-                }`}
+                className={`about__btn ${aboutFilter === "ABOUT" ? "about__btn-active" : ""
+                  }`}
                 onClick={() => setAboutFilter("ABOUT")}
               >
                 About me
               </button>
 
               <button
-                className={`about__btn ${
-                  aboutFilter === "EDUCATION" ? "about__btn-active" : ""
-                }`}
+                className={`about__btn ${aboutFilter === "EDUCATION" ? "about__btn-active" : ""
+                  }`}
                 onClick={() => setAboutFilter("EDUCATION")}
               >
                 Education
               </button>
 
               <button
-                className={`about__btn ${
-                  aboutFilter === "SKILLS" ? "about__btn-active" : ""
-                }`}
+                className={`about__btn ${aboutFilter === "SKILLS" ? "about__btn-active" : ""
+                  }`}
                 onClick={() => setAboutFilter("SKILLS")}
               >
                 Skills
               </button>
 
               <button
-                className={`about__btn ${
-                  aboutFilter === "PROJECT" ? "about__btn-active" : ""
-                }`}
+                className={`about__btn ${aboutFilter === "PROJECT" ? "about__btn-active" : ""
+                  }`}
                 onClick={() => setAboutFilter("PROJECT")}
               >
                 Projects
@@ -64,11 +60,7 @@ const About = () => {
                 <div className="about__content w-75">
                   <h2>I'm Şenay Akagündüz</h2>
                   <p>
-                    I produce works that will bring your brand to the forefront
-                    in every medium by considering your brand 360 degrees with
-                    contemplated and creative content and projects. I create
-                    special projects for your brand by combining concepts and
-                    user experience appropriate to your brand’s needs.
+                    As a React developer, I create customized content and projects that align with your brand. From immersive web experiences to interactive applications, I ensure your brand stands out across all mediums. Let's collaborate to bring your vision to life.
                   </p>
 
                   <div className="social__links">
@@ -82,7 +74,7 @@ const About = () => {
                     <span>
                       <a
                         href="https://twitter.com/senayakgnz?t=8DfBwrwQDSrFv0659TX2PA&s=08"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank" rel="noreferrer"
                       >
                         <i className="ri-twitter-line"></i>
                       </a>
@@ -90,7 +82,7 @@ const About = () => {
                     <span>
                       <a
                         href="https://www.linkedin.com/in/%C5%9Fenay-akag%C3%BCnd%C3%BCz-b3986b180"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank" rel="noreferrer"
                       >
                         <i className="ri-linkedin-line" />
                       </a>

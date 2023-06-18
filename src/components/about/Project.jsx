@@ -8,15 +8,14 @@ const Projects = () => {
       <Row lg="6" mb="6" className="d-flex">
         <Col className="w-50">
           <ProjectItem
-            year="2023"
-            title="Weather App for five days"
+            title=" Weather App for five days"
             text=" React-Tailwind-Axios-ES6"
           />
         </Col>
         <Col className="w-50">
           <ProjectItem
-            year="2023"
-            title="English Dictionary"
+           
+            title=" English Dictionary"
             text=" React-Tailwind-ContextApi-Axios"
           />
         </Col>
@@ -24,23 +23,32 @@ const Projects = () => {
       <Row lg="6" mb="6" className="d-flex">
         <Col className="w-50">
           <ProjectItem
-            year="2023"
-            title="Nft Landing Page"
-            text=" React-Bootstrap-Css-React icon"
+            
+            title=" Show Movie Website "
+            text=" Vanilla JavaScript-Fetch-Bootstrap"
           />
         </Col>
         <Col className="w-50">
           <ProjectItem
-            year="2022"
-            title="Todo App"
-            text=" React-Bootstrap-Local Storage-ES6"
+            title=" One More Website"
+            text=" Html Css JavaScript"
           />
         </Col>
-        <Col className="w-50">
+        
+      </Row>
+      <Row lg="6" mb="6" className="d-flex">
+      <Col className="w-50">
           <ProjectItem
-            year="2022"
+            
             title="Personal Portfolio Website"
             text=" React-Styled CSS-ES6"
+          />
+        </Col>
+        <Col className="w-50">
+          <ProjectItem
+            
+            title="Todo App"
+            text=" React-Bootstrap-Local Storage-ES6"
           />
         </Col>
       </Row>

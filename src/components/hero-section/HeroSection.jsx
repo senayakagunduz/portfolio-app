@@ -5,7 +5,7 @@ import me from "../../assets/me.png";
 
 const HeroSection = () => {
   return (
-    <section className="hero__section" id="home">
+    <section className="hero__section mt-5" id="home">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -18,8 +18,9 @@ const HeroSection = () => {
                   <div className="i-title-wrapper">
                     <div className="i-title-item">Frontend Developer</div>
                     <div className="i-title-item">Web Developer</div>
-                    <div className="i-title-item">UI/UX Designer</div>
-                    <div className="i-title-item">Content builder</div>
+                    <div className="i-title-item">Responsive Design</div>
+                    <div className="i-title-item">React Developer</div>
+                    <div className="i-title-item">User Friendly Projects</div>
                   </div>
                 </div>
               </div>
