@@ -14,6 +14,8 @@ import img9 from "../../assets/tour.png"
 import img10 from "../../assets/digital-agency.png";
 import img11 from "../../assets/godot.png";
 import img12 from "../../assets/portfolio.png";
+import img13 from "../../assets/onemore.jpg";
+import img14 from "../../assets/tvmaze.jpg";
 
 
 const portfolioData = [
@@ -90,6 +92,19 @@ const portfolioData = [
     url: "",
     sourceCode: "https://github.com/senayakagunduz/portfolio-site"
   },
+  {
+    imgUrl: img13,
+    title: "One More Clone",
+    url: "https://senay-akagunduz-networkmarketing.netlify.app",
+    sourceCode: "https://github.com/senayakagunduz/OneMoreClone"
+  },
+  {
+    imgUrl: img14,
+    title: "Film Project",
+    url: "https://tvmaze-js.netlify.app/",
+    sourceCode: "https://github.com/senayakagunduz/JS-FILM-PROJECT"
+  },
+
 
 
 ];
