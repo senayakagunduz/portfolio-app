@@ -1,6 +1,7 @@
  <h1><strong> [https://senayakagndz-portfolio.netlify.app/](https://648fa358781df87f6f25f05b--senayakagndz-portfolio.netlify.app) </strong><h1>
  
-![screencapture-localhost-3000-2022-12-12-12_28_05](https://user-images.githubusercontent.com/69090467/207010528-d9b66b86-70ef-44bd-9042-78f107d14bb4.png)
+![screencapture-649c7f82d418920b238451d1-senayakagndz-portfolio-netlify-app-2023-06-28-21_45_33](https://github.com/senayakagunduz/portfolio-app/assets/69090467/ef1535a6-240a-472d-9dbf-d140ef139e62)
+
 
 
 # Getting Started with Create React App
