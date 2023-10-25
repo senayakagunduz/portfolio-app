@@ -14,11 +14,11 @@ const Layout = () => {
     <Fragment>
       <Header />
       <HeroSection />
-      <About />
-      <Services />
-      <Experience />
       <Portfolio />
-      <Testimonials />
+      {/* <About /> */}
+      {/* <Services /> */}
+      <Experience />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </Fragment>

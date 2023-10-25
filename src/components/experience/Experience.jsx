@@ -6,7 +6,7 @@ const experienceData = [
   {
     year: "2022-2023",
     title: "Frontend Developer",
-    desc: " I produced web projects in React Js, I used Bootstrap, React-bootstrap, ES6, CSS, SASS and HTML",
+    desc: " I produced web projects in React Js and JavaScript, I used  Redux-Toolkit,Bootstrap, Tailwind, CSS, SASS, SCSS and HTML5",
   },
   {
     year: "2020-2021",

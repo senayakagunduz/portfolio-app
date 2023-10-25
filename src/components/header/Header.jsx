@@ -11,16 +11,16 @@ const navLinks = [
     url: "#home",
 
   },
-  {
-    id: 2,
-    display: "About",
-    url: "#about",
-  },
-  {
-    id: 3,
-    display: "Services",
-    url: "#services",
-  },
+  // {
+  //   id: 2,
+  //   display: "About",
+  //   url: "#about",
+  // },
+  // {
+  //   id: 3,
+  //   display: "Services",
+  //   url: "#services",
+  // },
   {
     id: 4,
     display: "Projects",
