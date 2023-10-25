@@ -25,7 +25,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <p>
-                I combine current design trends with your brand’s identity and
+                I combine current design trends with your brand's identity and
                 offer user-friendly websites solutions that appeal to the user.
                 With our sectoral experience, we take steps in the light of
                 technological developments and ensure that your brand targets
@@ -33,11 +33,11 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="hero__btns d-flex align-items-center gap-4 mt-5">
-              <button className="btn hire__btn">
-                <a href="/#" rel="noreferrer">Hire me</a>
+              <button className="btn hire__btn d-flex align-center justify-content-center">
+              <i class="ri-linkedin-fill"></i><a href="https://www.linkedin.com/in/senayakagunduz/" rel="noreferrer">Linkedin</a>
               </button>
               <button className="btn contact__btn">
-                <a href="#form" rel="noreferrer" >Contact</a>
+              <i class="ri-github-fill me-1"></i><a href="https://github.com/senayakagunduz" rel="noreferrer" >Github</a>
               </button>
             </div>
           </Col>

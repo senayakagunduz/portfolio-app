@@ -28,7 +28,7 @@ const portfolioData = [
     imgUrl: rentcar,
     title: "Rent Car Project",
     url: "https://www.vantageride.com/",
-    sourceCode: "https://github.com/senayakagunduz/JS-FILM-PROJECT"
+    sourceCode: "https://github.com/senayakagunduz/pickanddrive-son"
   },
   {
     imgUrl: cookery,
@@ -51,8 +51,8 @@ const portfolioData = [
   {
     imgUrl: weatherapp,
     title: "Film Project",
-    url: "https://tvmaze-js.netlify.app/",
-    sourceCode: "https://github.com/senayakagunduz/JS-FILM-PROJECT"
+    url: "https://64a0223b04804b2d940f870c--senayakagunduz-weather-app.netlify.app/",
+    sourceCode: "https://github.com/senayakagunduz/forecast-app"
   },
   {
     imgUrl: formik,
