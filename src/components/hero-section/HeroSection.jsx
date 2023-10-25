@@ -34,10 +34,10 @@ const HeroSection = () => {
             </div>
             <div className="hero__btns d-flex align-items-center gap-4 mt-5">
               <button className="btn hire__btn d-flex align-center justify-content-center">
-              <i class="ri-linkedin-fill"></i><a href="https://www.linkedin.com/in/senayakagunduz/" rel="noreferrer">Linkedin</a>
+              <i class="ri-linkedin-fill"></i><a href="https://www.linkedin.com/in/senayakagunduz/" rel="noreferrer" target="_blank">Linkedin</a>
               </button>
               <button className="btn contact__btn">
-              <i class="ri-github-fill me-1"></i><a href="https://github.com/senayakagunduz" rel="noreferrer" >Github</a>
+              <i class="ri-github-fill me-1"></i><a href="https://github.com/senayakagunduz" rel="noreferrer" target="_blank" >Github</a>
               </button>
             </div>
           </Col>
