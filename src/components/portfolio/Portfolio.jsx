@@ -6,7 +6,7 @@ import tvmaze from "../../assets/tvmaze.jpg";
 import dictionary from "../../assets/dict.png";
 import jokes from "../../assets/jokes.png";
 import linkedin from "../../assets/linkedin.png";
-import forecast from "../../assets/weather.png"
+import sidebar from "../../assets/sidebar.png"
 import medium from "../../assets/medium.png"
 import nft from "../../assets/nft.png"
 import tour from "../../assets/tour.png"
@@ -16,7 +16,7 @@ import portfolio from "../../assets/portfolio.png";
 import emoji from "../../assets/emoji.png"
 import kitchen from "../../assets/asiankitchen.png";
 import rentcar from "../../assets/vantageride-min.png";
-import cookery from "../../assets/cookery-main-min.png";
+import cookery from "../../assets/cookery_port.png"
 import onemore from "../../assets/onemore-min.png";
 import weatherapp from "../../assets/weather-app.jpeg"
 import formik from "../../assets/formik.jpg"
@@ -80,10 +80,10 @@ const portfolioData = [
     sourceCode: "https://github.com/senayakagunduz/linkedinclone"
   },
   {
-    imgUrl: forecast,
-    title: "Weather App ",
-    url: "https://senayakgndz-weatherapp-react.netlify.app/ ",
-    sourceCode: "https://github.com/senayakagunduz/weather-app"
+    imgUrl: sidebar,
+    title: "Next-js Sidebar with Tailwind ",
+    url: "https://side-nav-with-submenus-git-master-senayakagunduz.vercel.app/",
+    sourceCode: "https://github.com/senayakagunduz/side-nav-with-submenus"
   },
   {
     imgUrl: medium,
