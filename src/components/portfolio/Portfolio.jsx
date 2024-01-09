@@ -154,7 +154,7 @@ const Portfolio = () => {
               <div className="d-block col-sm-6 col-lg-4 mb-4" key={index}>
                 <div className="card h-100">
                   <img src={imgUrl} className="card-img-top w-100 h-100" alt="..." />
-                  <div class="card-footer text-body-secondary text-center">
+                  <div className="card-footer text-body-secondary text-center">
                     <a href={url} target="_blank" rel="noreferrer">View Live Demo</a><br></br>
                     <a href={sourceCode} target="_blank" rel="noreferrer">View Source Code</a>
                   </div>
